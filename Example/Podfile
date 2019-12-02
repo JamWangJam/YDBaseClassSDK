@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YDBaseClassSDK_Example' do
+  pod 'YDBaseClassSDK', :path => '../'
+
+  target 'YDBaseClassSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
