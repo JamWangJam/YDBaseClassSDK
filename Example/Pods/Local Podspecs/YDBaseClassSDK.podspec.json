@@ -1,0 +1,22 @@
+{
+  "name": "YDBaseClassSDK",
+  "version": "0.1.0",
+  "summary": "A short description of YDBaseClassSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JamWangJam/YDBaseClassSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamWangJam": "superwangjianmin@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JamWangJam/YDBaseClassSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YDBaseClassSDK/Classes/**/*"
+}

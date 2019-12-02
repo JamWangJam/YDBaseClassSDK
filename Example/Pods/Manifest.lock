@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YDBaseClassSDK (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YDBaseClassSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YDBaseClassSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YDBaseClassSDK: c3edc7156bbedecddaa60a3b9c41ee02d8a264a2
+
+PODFILE CHECKSUM: aa5445dbcd485686c49776fbddc111c842edff47
+
+COCOAPODS: 1.8.4

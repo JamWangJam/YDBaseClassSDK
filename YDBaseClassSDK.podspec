@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDBaseClassSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YDBaseClassSDK.'
+  s.version          = '0.0.1'
+  s.summary          = 'iOS组件化调研过程中的测试Base类组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+       组件化过程中的一个测试base工具类的远程仓库
                        DESC
 
   s.homepage         = 'https://github.com/JamWangJam/YDBaseClassSDK'

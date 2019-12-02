@@ -1,0 +1,6 @@
+framework module YDBaseClassSDK {
+  umbrella header "YDBaseClassSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
