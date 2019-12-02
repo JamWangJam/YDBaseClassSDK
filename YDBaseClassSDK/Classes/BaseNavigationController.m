@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"测试y数据用的");
 }
 -(UIStatusBarStyle)preferredStatusBarStyle {
     return [self.topViewController preferredStatusBarStyle];
