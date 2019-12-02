@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDBaseClassSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'iOS组件化调研过程中的测试Base类组件'
 
 # This description is used to generate tags and improve search results.
