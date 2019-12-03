@@ -4,11 +4,14 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YDBaseClassSDK (0.1.0)
+  - YDBaseClassSDK (0.0.2):
+    - YDCategorySDK (= 0.0.1)
+  - YDCategorySDK (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - YDBaseClassSDK (from `../`)
+  - YDCategorySDK (from `https://github.com/JamWangJam/YDCategorySDK.git`)
 
 SPEC REPOS:
   trunk:
@@ -17,11 +20,19 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   YDBaseClassSDK:
     :path: "../"
+  YDCategorySDK:
+    :git: https://github.com/JamWangJam/YDCategorySDK.git
+
+CHECKOUT OPTIONS:
+  YDCategorySDK:
+    :commit: 7d1d834da6f8706808bc14e16830edf9ae8dae2c
+    :git: https://github.com/JamWangJam/YDCategorySDK.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YDBaseClassSDK: c3edc7156bbedecddaa60a3b9c41ee02d8a264a2
+  YDBaseClassSDK: a3cff716dbfafe671fd39bd03be8b486189a3c1d
+  YDCategorySDK: 65370e8c636798cc49f5da89f600e0701fbda450
 
-PODFILE CHECKSUM: aa5445dbcd485686c49776fbddc111c842edff47
+PODFILE CHECKSUM: d63f76336ccf22f691dfb34666d10c0b8848beaa
 
 COCOAPODS: 1.8.4

@@ -10,7 +10,7 @@ target 'YDBaseClassSDK_Example' do
 
     pod 'FBSnapshotTestCase'
     
-    
+    pod 'YDCategorySDK' ,:git =>"https://github.com/JamWangJam/YDCategorySDK.git"
     
     
   end

@@ -7,7 +7,8 @@
 //
 
 #import "BaseViewController.h"
-#import "UINavigationController+Category.h"
+#import <YDCategorySDK/YDCategorySDKHeader.h>
+
 @interface BaseViewController ()
 
 @end
