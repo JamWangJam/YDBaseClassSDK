@@ -1,0 +1,22 @@
+{
+  "name": "YDCategorySDK",
+  "version": "0.0.1",
+  "summary": "啊啊啊啊啊啊啊",
+  "description": "啊啊啊啊啊啊啊啊啊大萨达大",
+  "homepage": "https://github.com/JamWangJam/YDCategorySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamWangJam": "superwangjianmin@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JamWangJam/YDCategorySDK.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YDCategorySDK/Classes/**/*"
+}
